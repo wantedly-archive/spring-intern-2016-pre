@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1035px;
+}
+
+article {
+  width: 300px;
+}
+
+article * {
+  width: 300px;
+}
