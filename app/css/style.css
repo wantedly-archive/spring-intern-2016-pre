@@ -1,0 +1,78 @@
+.container {
+  width: 1035px;
+}
+.right {
+  text-align: right;
+}
+
+#title {
+  color: #888;
+}
+
+#title a{
+  color: #09b7c4;
+
+}
+.slides {
+  text-align: center;
+  list-style: none;
+}
+
+.slide {
+  width: 300px;
+  margin: 20px 20px 20px 20px;
+  float: left;
+  text-align: left;
+}
+.work_attribute {
+  border: medium solid orange;
+  font-size: 12px;
+  border-radius: 3px;
+  float: left;
+  color: orange;
+  margin: 2px 2px 2px 2px;
+}
+
+.new {
+  font-size: 8px;
+  border-radius: 3px;
+  float: left;
+  font-weight: bold;
+  color: white;
+  background-color: limegreen;
+  margin: 2px 2px 2px 2px;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+}
+
+.slide img{
+  width: 300px;
+}
+
+.slide div img {
+  width: 30px;
+}
+
+.company {
+  font-weight: bold;
+  color: #333;
+  margin: 10px 3px 10px 50px
+}
+.company img {
+  height 20px;
+  width: 20px;
+}
+.company p {
+  font-size: 14px;
+  color: grey;
+  position: relative;
+  left: 40px;
+  bottom: 45px;
+}
+
+h3 {
+  font-weight: bold;
+}
+p {
+  font-size: 12px;
+}
