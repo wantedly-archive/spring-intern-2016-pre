@@ -7,7 +7,7 @@
   text-align: initial;
   display: inline-block;
   width: 300px;
-  margin-right: 25px;
+  margin: 10px;
 }
 
 .panel-header{
@@ -53,4 +53,48 @@
   height: 18px;
   line-height: 20px;
   margin-bottom: 10px;
+}
+
+.c-btn{
+  color: transparent;
+  outline: none;
+  background: transparent;
+  border: 1px solid #f5f5f5;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  overflow: hidden;
+
+}
+
+.c-btn.move{
+  color: #00A4BB;
+  font-family: FontAwesome;
+
+}
+.c-btn:before{
+  content: "\f054";
+  float: right;
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  margin-right: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c-btn.left:before{
+  content: "\f053";
+}
+
+.c-btn.left{
+  top: 150px;
+  left: 30px;
+  position: absolute;
+}
+
+.c-btn.right{
+  top: 150px;
+  right: 30px;
+  position: absolute;
 }
