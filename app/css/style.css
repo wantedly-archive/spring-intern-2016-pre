@@ -1,0 +1,136 @@
+.panel-wrapper{
+  width: 100%;
+  text-align: center;
+}
+
+.panel-item{
+  text-align: initial;
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 770px) {
+  .panel-item{
+    width: 100%;
+  }
+}
+
+.panel-header{
+  color: #24282A;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 1px;
+  font-weight: 600;
+  padding: 18px 0 12px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease false;
+  -o-transition: all 0.3s ease false;
+  transition: all 0.3s ease;
+}
+
+.panel-header-img img{
+  width: 300px;
+}
+
+@media screen and (max-width: 770px) {
+  .panel-header-img img{
+    width: 100%;
+    margin-right: 10px;
+  }
+}
+
+.panel-desc{
+  color: #6A6E71;
+  line-height: 1.6;
+  font-size: 13px;
+  font-weight: 300;
+  height: 70px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.panel-type{
+  display: inline-block;
+  color: #DAA520;
+  font-size: 10px;
+  border: 1px solid #DAA520;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+  padding: 0 4px;
+  height: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.panel-type{
+  display: inline-block;
+  color: #DAA520;
+  font-size: 10px;
+  border: 1px solid #DAA520;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  vertical-align: middle;
+  padding: 0 4px;
+  height: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.c-btn{
+  color: transparent;
+  outline: none;
+  background: transparent;
+  border: 1px solid #f5f5f5;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  overflow: hidden;
+
+}
+
+@media screen and (max-width: 770px) {
+  .c-btn{
+    display: none;
+  }
+}
+
+.c-btn.move{
+  color: #00A4BB;
+  font-family: FontAwesome;
+
+}
+
+.c-btn:before{
+  content: "\f054";
+  float: right;
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  margin-right: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c-btn.left:before{
+  content: "\f053";
+}
+
+.c-btn.left{
+  top: 150px;
+  left: 30px;
+  position: absolute;
+}
+
+.c-btn.right{
+  top: 150px;
+  right: 30px;
+  position: absolute;
+}
