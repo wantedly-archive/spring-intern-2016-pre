@@ -22,3 +22,16 @@
  - iphone4でも見れる。
 
 ### モバイルwebのチェック方法
+
+![_2016_03_03_11_25](https://cloud.githubusercontent.com/assets/4524771/13482811/a860147e-e132-11e5-9f88-63d8a19ce4de.png)
+
+![_2016_03_03_11_22](https://cloud.githubusercontent.com/assets/4524771/13482770/544fbea2-e132-11e5-9dc6-dfb0db0c62f2.png)
+
+![image](https://cloud.githubusercontent.com/assets/4524771/13482783/723be6de-e132-11e5-8261-3e2be4e4974b.png)
+
+すきなデバイスを選べる。
+
+### ヒント
+
+ - media queries
+ - viewport
