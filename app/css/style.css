@@ -1,0 +1,62 @@
+.title {
+    color: #cccccc;
+}
+.wrap {
+    width: 1035px;
+    margin: 0 auto;
+}
+.list-item {
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.item-img {
+    width: 300px;
+    height: 122px;
+}
+.item-title {
+    margin: 1em 0;
+    font-weight: bold;
+}
+.list-item:not(:last-child){
+    margin-right: 67px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.wrap:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size:0;
+    clear: both;
+    visibility:hidden;
+}
+.category-wrap {
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+.category {
+    padding: 3px;
+    color: #fca600;
+    border: 1px solid #fca600;
+    border-radius: 5px;
+}
+.item-body {
+    font-size: 75%;
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+.body-text {
+    height: 155px;
+}
+.company-wrap {
+    position: relative;
+}
+.company-name {
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+}
