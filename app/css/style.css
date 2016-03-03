@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: base;
+}
+
+.recruit {
+    width: 300px;
+    margin: 25px;
+}
+
+.tag {
+    font-size: .75em;
+    display: flex;
+    margin-bottom: .5em;
+}
+
+.tag .type {
+    margin-right: .25em;
+    padding: .25em;
+    border: 1px solid orange;
+    border-radius: .25em;
+    color: orange;
+    list-style-type: none;
+}
+
+.tag .new {
+    margin-right: .25em;
+    padding: .25em;
+    background: #50cc33;
+    border: #50cc33 1px solid;
+    border-radius: .25em;
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.view {
+    width: 300px;
+}
+
+.rec-title {
+    padding-top: .5em;
+    padidng-bottom: .5em;
+    height: 2em;
+}
+
+.description {
+    color: gray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 4em;
+}
+
+.inc {
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.inc .trim {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px lightgray;
+}
+
+.inc .logo {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.inc .name {
+    padding: 1em;
+    font-size: .75em;
+    font-weight: bold;
+    color: gray;
+}
