@@ -1,0 +1,84 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', "ヒラギノ角ゴシック", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3',Roboto, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1035px;
+}
+
+article {
+  display: inline-block;
+  width: 300px;
+}
+
+.icon-job-type {
+  display: inline-block;
+  font-size: 10px;
+  color: #DAA520;
+  border: 1px solid #DAA520;
+  border-radius: 3px;
+  padding: 0 4px;
+  height: 18px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.project-image-wrapper {
+  overflow: hidden;
+}
+
+.project_cover {
+  margin-top: 10px;
+  width: 300px;
+  background-size: cover;
+}
+
+.project-title {
+  color: #24282A;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 1px;
+  font-weight: 600;
+  padding: 18px 0 12px;
+  transition: all 0.3s ease;
+}
+
+.project-description {
+  color: #6A6E71;
+  line-height: 1.6;
+  font-size: 13px;
+  font-weight: 300;
+  height: 70px;
+}
+
+.company-name-wrapper {
+  align-items: center;
+  height: 40px;
+  display: flex;
+  vertical-align: middle;
+  color: #6A6E71;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.company-name {
+  margin-left: 10px;
+}
+
+.company-thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
