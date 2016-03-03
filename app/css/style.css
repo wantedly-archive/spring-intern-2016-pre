@@ -1,0 +1,30 @@
+
+.header-wrapper {
+  margin: 0 auto;
+  width: 1035px;
+}
+
+.project-wrapper {
+  width: 300px;
+  display: inline-block;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.image {
+  width: 300px;
+}
+
+.footer {
+  display: inline-block;
+}
+
+.text, .text-detailed, .footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  margin:auto;
+}
