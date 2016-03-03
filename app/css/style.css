@@ -12,7 +12,7 @@
     -webkit-font-smoothing: antialiased;
 }
 .right_button {
-    right: 0;
+    right: 30px;
     top: 50px;
     font-size: 16px;
     color: #00A4BB;
@@ -24,6 +24,7 @@
     display: inline-block;
     width: 300px;
     height: 500px;
+    margin: 20px;
 }
 .category {
     display: inline-block;
