@@ -1,0 +1,14 @@
+{
+  "name": "spring-intern-2016",
+  "version": "1.0.0",
+  "description": "awesome",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1"
+  }
+}
